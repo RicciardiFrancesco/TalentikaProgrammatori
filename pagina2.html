@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Exercise html 4 </title>
+    </head>
+    
+    <body> 
+        <h1 align="center"> Exercise html 4 </h1>
+        <br>
+        <form name="mio_form" action="login.php" method="POST">
+            <input type="text" name="nome" value="" maxlength="30" placeholder="Nome">
+            <input type="text" name="cognome" value="" maxlength="40" placeholder="Cognome">
+            <input type="number" name="eta" value="" placeholder="Età"> 
+            <br><br>
+            Seleziona lingua:   <input type="radio" id="I" name="language" value="I"> <label for="I">Italiano </label>
+                                <input type="radio" id="E" name="language" value="E"> <label for="E">English </label>
+                                <input type="radio" id="F" name="language" value="F"> <label for="F">Français </label>
+                                <input type="radio" id="D" name="language" value="D"> <label for="D">Deutsche </label>
+            <br><br>
+            Seleziona sesso:    <input type="radio" id="M" name="gender" value="M"> <label for="M"> M </label>
+                                <input type="radio" id="F" name="gender" value="F"> <label for="F"> F </label>
+                                <input type="radio" id="altro" name="gender" value="altro"> <label for="Altro"> Non binario </label>
+            <br><br>    
+            <input type="submit" name="invia" value="Invia">
+            <input type="reset" name="reset" value="Reset">
+        </form>
+    </body>
+</html>
